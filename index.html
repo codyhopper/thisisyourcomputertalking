@@ -10,7 +10,125 @@
   </head>
 
   <body>
-    hello world!
+    <main class="screenreader-only">
+      <p>Can you hear me now? Sorry, that was a joke. I am a little nervous. When you are ready, press the VoiceOver key with the right arrow key to continue.</p>
+
+      <p>This is Voiceover, a screenreader technology that comes preloaded on your MacBook. Screenreaders translates on-screen information into speech and are a vital part of voice assistants like Siri and Alexa. Continue navigating to learn more.</p>
+
+      <p>Why design for accessibility? We often overlook accessible design practices, but they represent a fascinating extension of the state of technology today. There are strong practical reasons for making the web accessible, like equal access to
+      productivity and a stronger information architecture. To understand the value of an accessible web, we need to take a look at the specific technologies that make this possible. Continue navigating.</p>
+
+      <p>People who are sighted can scan a screen for context. But audio is linear, and requires some parsing out. You can use punctuation like periods, commas, semi-colons and some others to do this, but really its about building up accessible elements on the page for a better experience for all.</p>
+
+      <p>So the next time you come across some sketchy html markup, think about the problem from the perspective of a non-sighted user. Consider a stronger information architecture, implementing accessible design practices, and the value of a web built for everyone. . . Thank you for listening, when you are ready, go ahead and turn your screen brightness back up.</p>
+    </main>
+    
+    <aside class="parallax" aria-hidden="true" tabindex="-1">
+      <section id="card1" class="parallax-group">
+        <div class="parallax-layer parallax-layer__base card">
+          <h1>hi, this is your computer talking</h1>
+          <p>A guided introduction to your personal screen reader.</p>
+          <a href="#card2" aria-hidden="true">Continue⤳</a>
+        </div>
+      </section>
+
+      <section id="card2" class="parallax-group">
+        <div class="parallax-layer parallax-layer__base card">
+          <p><em>Please wait until the end of this introduction to launch VoiceOver.</em></p>
+
+          <p>VoiceOver is controlled by your keyboard. The shortcut for turning it on is the same as turning it off: <kbd>Cmd</kbd> + <kbd>F5</kbd>.</p>
+
+          <p>You'll also need the “Voiceover key” which is the <kbd>Ctrl</kbd> and <kbd>Option</kbd> keys pressed and held at the same time. From here on out, these will be referred to as the <kbd>VO</kbd> keys.</p>
+          <a href="#card3" aria-hidden="true">Continue⤳</a>
+        </div>
+
+        <div class="parallax__layer parallax__layer--back">
+          <div class="gif">
+            <img src="img/winter-grass.gif" style="transform: translateX(25%) translateY(-100%);"/>
+          </div>
+        </div>
+      </section>
+
+      <section id="card3" class="parallax-group">
+        <div class="parallax-layer parallax-layer__fore">
+          <div class="gif">
+            <img src="img/mirror.gif" style="transform: translateX(75%) translateY(-100%);"/>
+          </div>
+        </div>
+
+        <div class="parallax-layer parallax-layer__base card">
+          <p>After VoiceOver is launched, you'll be able to navigate laterally across elements on the screen with the <kbd>VO</kbd> key and the <kbd>⇠</kbd> and <kbd>⇢</kbd> arrow keys.</p>
+          <a href="#card4" aria-hidden="true">Continue⤳</a>
+        </div>
+      </section>
+
+      <section id="#card4" class="parallax-group">
+        <div class="parallax-layer parallax-layer__back">
+          <div class="gif">
+            <img src="img/beach.gif" style="transform: translateX(75%) translateY(0%);"/>
+          </div>
+        </div>
+
+        <div class="parallax-layer parallax-layer__base card">
+          <p>After navigating to the web content, you can enter the content by pressing <kbd>VO</kbd> + <kbd>Shift</kbd> + <kbd>⇣</kbd>.</p>
+          <a href="#card5" aria-hidden="true">Continue⤳</a>
+        </div>
+
+        <div class="parallax-layer parallax-layer__deep">
+          <div class="gif">
+            <img src="img/sunrise.gif" style="transform: translateX(-110%) translateY(-50%);"/>
+          </div>
+        </div>
+      </section>
+
+      <section id="card5" class="parallax-group">
+        <div class="parallax-layer parallax-layer__base card">
+          <p>
+            Here are those steps again: <br>
+            <ol>
+              <li>Launch VoiceOver <kbd>Cmd</kbd> + <kbd>F5</kbd>.</li>
+              <li>Navigate to web content <kbd>VO</kbd> + <kbd>⇠/⇢</kbd> .</li>
+              <li>Enter web content <kbd>VO</kbd> + <kbd>Shift</kbd> + <kbd>⇣</kbd> .</li>
+            </ol><br>
+          </p>
+          <p>When you are ready, use the <kbd>☀</kbd> keys and turn your screen brightness all the way down. Then, launch Voiceover to interact with what only the screenreader can see on this website.</p>
+          <a href="#card6" aria-hidden="true">Credits⤳</a>
+        </div>
+
+        <div class="parallax-layer parallax-layer__fore">
+          <div class="gif">
+            <img src="img/snow.gif" style="transform: translateX(110%) translateY(0%);"></img>
+          </div>
+        </div>
+      </section>
+
+      <section id="card6" class="parallax-group">
+        <div class="parallax-layer parallax-layer__back">
+          <div class="gif">
+            <img src="img/billowing.gif" style="transform: translateX(0%) translateY(0%);"></img>
+          </div>
+        </div>
+      </section>
+
+      <section id="card7" class="parallax-group">
+        <div class="parallax-layer parallax-layer__deep">
+          <div class="gif">
+            <img src="img/billowing.gif" style="transform: translateX(100%) translateY(-45%);"></img>
+          </div>
+        </div>
+
+        <div class="parallax-layer parallax-layer__base card">
+          <h2>Thanks to:</h2>
+          <ul>
+            <li>Aidain Quinlan and the entire <a href="https://aidanquinlan.net/handmade-web/index.html">Handmade Web</a> class.</li>
+            <li>Chris Ashton's article: "<a href="https://www.smashingmagazine.com/2018/12/voiceover-screen-reader-web-apps/">I Used The Web for a Day Using a Screenreader</a>".</li>
+            <li>Casey Lottman's <a href="https://screenreader-practice.glitch.me/">Screenreader Practice</a> on glitch.com.</li>
+          </ul>
+          Typefaces used are Work Sans by Wei Huang and IBM Plex Mono by Mike Abbink.<br>
+          Code, Words + Design by Cody Hopper
+        </div>
+      </section>
+    </aside>
 
     <script src="./main.js"></script>
   </body>
