@@ -1,2 +1,2 @@
-# thisisyourcomputertalking.github.io
+# this is your computer talking
 Practice your screenreader abilities!
